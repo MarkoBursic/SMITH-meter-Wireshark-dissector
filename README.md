@@ -6,7 +6,9 @@ Usage:
 In the filter window enter: SMITH  
 All traffic will be filtered out, except the communication with meters will be shown.  
 
-SMITH.Addr == n  ... only communication with meter with address n will be shown  
+SMITH.Addr==n  ... only communication with meter with address n will be shown  
+SMITH.start==Query ... only queries from master will be shown  
+SMITH.start==Resp ....only responses from meters will e shown  
 
 List of supported commands:  
   
