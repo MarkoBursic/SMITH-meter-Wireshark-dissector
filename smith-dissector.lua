@@ -131,7 +131,7 @@ local function DefineAndRegisterSMITHdissector()
 
     local QUERY = 2
 	local RESPONSE = 0
-	local dirType = {[NULL]='Resp ', [STX]='Query'}
+	local dirType = {[NULL]='Resp', [STX]='Query'}
 	local eType = {[ETX]='ETX'}
 	local tResult = {[0]='Fail', [1]='Success'}
 	local tBoolean = {[0]='False', [1]='True'}
