@@ -1,5 +1,6 @@
 The plugin should be installed in your Wireshark Lua plugin directory.
-You can find your Wireshark plugin directory by opening Wireshark and going to Help > About Wireshark and clicking on the Folders tab. The Personal Lua Plugins directory should be used to install the CloudShark Wireshark plugin to allow users to configure their own API Tokens.
+You can find your Wireshark plugin directory by opening Wireshark and going to Help > About Wireshark and clicking on the Folders tab.
+The Personal Lua Plugins directory should be used to install the SMITH dissector plugin.
 
 Usage:
 In the filter window enter: SMITH 
